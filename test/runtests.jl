@@ -1,6 +1,9 @@
 using AdventOfCode20XX
 using Test
 
-@testset "AdventOfCode20XX.jl" begin
-    # Write your tests here.
+
+@testset "Day 1" begin
+    example = ""
+
+    @test AdventOfCode20XX.Day1.solve(IOBuffer(example)) == (0, 1)
 end
